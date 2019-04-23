@@ -64,3 +64,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+html, body {
+	height: 2000px;
+}
+
+body {
+	width: 1000px;
+}
+
+.navigation {
+	width: 100%;
+	height: 50px;
+	text-align: center;	
+	margin: 30px;
+	margin-bottom: 60px;
+}
+
+.logo {
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+}
+
+.navigation a {
+	display: inline-block;
+	margin: 20px;
+	text-decoration: none;
+	color: grey;
+}
+
+.top-header {
+		width: 100%;
+	height: 400px;
+	text-align: center;	
+	
+}
+
+.top-h1 {
+	font-size: 80px;
+	display: inline-block;
+}
+
+.header-img {
+	display: inline-block;
+	float: right;
+	margin-right: 20px;	
+}
+.button1 {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 7px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.top-section {
+	box-sizing: border-box;
+	width: 100%;
+	height: 150px;
+	text-align: center;
+}
+
+.mid-text {
+display: inline-block;
+width: 400px;
+margin: 25px;
+text-align: left;
+}
+.p1 {
+	/*width: 400px;*/
+}
+
+.mid-img {
+	text-align: center;
+}
+
+.bottom-section {
+	box-sizing: border-box;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+}
+
+.bottom-text {
+display: inline-block;
+width: 250px;
+margin: 25px;
+text-align: left;
+}
+
+.contact {
+display: inline-block;
+width: 100%;
+margin: 50px;
+text-align: left;
+line-height: 20px;
+
+}
+
+.copyright {
+  padding: 20px 0;
+   /*======= center the text here */
+   text-align: center;
