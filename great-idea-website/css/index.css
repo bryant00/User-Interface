@@ -152,18 +152,23 @@ nav {
   font-size: 16px;
 }
 
-
+.top-sec-container {
+	width: 880px;
+	height: 140px;
+	margin: 10px 60px;
+}
 .top-section {
 	box-sizing: border-box;
-	/*border-top: 1px solid black;*/
-	width: 100%;
-	height: 150px;
+	border-top: 1px solid black;
+	width: 880px;
+	/*height: 150px;*/
 	text-align: center;
+	display: inline-block;
 }
 
 .mid-text {
 display: inline-block;
-width: 400px;
+width: 390px;
 margin: 20px;
 text-align: left;
 /*border: 1px solid black;*/
@@ -177,19 +182,27 @@ text-align: left;
 	margin-bottom: 20px;
 }
 
+.bottom-sec-container {
+	width: 880px;
+	height: 200px;
+	margin: 10px 60px;
+}
+
 .bottom-section {
 	box-sizing: border-box;
-	/*border-top: 1px solid black;*/
+	border-top: 1px solid black;
 	width: 100%;
 	height: 200px;
 	text-align: center;
+	padding: 10px;
 }
 
 .bottom-text {
 display: inline-block;
 width: 250px;
-margin: 25px;
+margin: 20px 20px 20px 0px;
 text-align: left;
+
 }
 
 .contact {
